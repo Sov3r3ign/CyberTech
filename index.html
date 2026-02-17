@@ -6,11 +6,27 @@
     <title>Cyber College of Business & Technology - Your Future Starts With Us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link  href="stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-
 </head>
 <body>
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="nav-logo">Cyber <span>College</span></a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#courses">Short Courses</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#healthcare">Healthcare</a></li>
+                <li><a href="#beauty">Beauty College</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#register" class="nav-cta">Register Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -33,26 +49,187 @@
         </div>
     </section>
 
-    <section class="courses-section">
+    <div class="promo-banner">
+        <span>2026 Registration Open</span>
+        Free Registration — Limited Spaces Available. Enroll Today and Secure Your Future!
+    </div>
+
+
+    <section class="certificates-section" id="certificates">
         <div class="container">
-            <h2 class="section-title">Short Courses</h2>
-            <p style="font-size: 1.1rem; margin-top: 20px; max-width: 700px;">Training & Job Placement Assistance</p>
+            <h2 class="section-title">Accredited Certificates</h2>
+            <p class="cert-intro">
+                Every course at Cyber College is backed by nationally recognized accreditation. When you graduate, your certificate is not just a piece of paper — it is proof of industry-standard training that employers trust.
+            </p>
+
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg>
+                    </div>
+                    <div class="cert-name">ICT & Computer Skills</div>
+                    <div class="cert-body">Dept. of Higher Education & Training</div>
+                    <p class="cert-desc">Covers Computer Literacy, Microsoft Office Suite, Data Capture, Internet, and Graphic Design.</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.8"><path d="M12 3L2 9l10 6 10-6-10-6z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+                    </div>
+                    <div class="cert-name">Matric National Senior Certificate</div>
+                    <div class="cert-body">Umalusi / DHET Accredited</div>
+                    <p class="cert-desc">Full NSC and individual subject rewrites recognized nationally by all South African universities and employers.</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                    </div>
+                    <div class="cert-name">Home Based Care</div>
+                    <div class="cert-body">HWSETA Accredited</div>
+                    <p class="cert-desc">Nationally recognized qualification for Home Based Care Workers. Highly valued in public and private healthcare settings.</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+                    </div>
+                    <div class="cert-name">Occupational Health & Safety</div>
+                    <div class="cert-body">TETA / MERSETA Accredited</div>
+                    <p class="cert-desc">Industry-recognized OHS certification that qualifies graduates to work as safety officers across multiple sectors.</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <div class="cert-name">Business Administration</div>
+                    <div class="cert-body">SERVICES SETA Accredited</div>
+                    <p class="cert-desc">Covers Office Admin, Customer Care, Reception, and Business Communication. Recognized by employers in all sectors.</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <div class="cert-name">Beauty Therapy & Cosmetology</div>
+                    <div class="cert-body">CATHSSETA Accredited</div>
+                    <p class="cert-desc">Professionally recognized beauty qualifications covering Nail Technology, Makeup, Lash & Brow, and Hair & Styling.</p>
+                </div>
+            </div>
+
+            <div class="cert-badge-row">
+                <div class="cert-badge-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#00B8D4" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    Reg no. 2017/419584/07
+                </div>
+                <div class="cert-badge-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#00B8D4" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    Accreditation no. 2018/02/020016
+                </div>
+                <div class="cert-badge-item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#00B8D4" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    Dept. of Higher Education & Training
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Facilities & Students</h2>
+            <p style="font-size: 1.1rem; margin-top: 20px; max-width: 700px;">
+                Modern training facilities with state-of-the-art equipment and experienced instructors.
+            </p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <!-- <img src="images/classroom1.jpg" alt="Modern computer training classroom"> -->
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#00B8D4" stroke-width="1.5"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 20h8M12 18v2"/></svg>
+                        </div>
+                        <div class="gallery-placeholder-text">Computer Training Lab</div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <!-- <img src="images/students1.jpg" alt="Students learning in classroom"> -->
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#00B8D4" stroke-width="1.5"><circle cx="9" cy="7" r="3"/><circle cx="15" cy="7" r="3"/><path d="M3 20c0-4 2.7-6 6-6h6c3.3 0 6 2 6 6"/></svg>
+                        </div>
+                        <div class="gallery-placeholder-text">Students in Class</div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <!-- <img src="images/graduation.jpg" alt="Successful graduates"> -->
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#00B8D4" stroke-width="1.5"><path d="M12 3L2 9l10 6 10-6-10-6z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+                        </div>
+                        <div class="gallery-placeholder-text">Graduation Day</div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <!-- <img src="images/instructor.jpg" alt="Experienced instructor teaching"> -->
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#00B8D4" stroke-width="1.5"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M7 9h2M11 9h6M7 12h4"/></svg>
+                        </div>
+                        <div class="gallery-placeholder-text">Expert Instructors</div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <!-- <img src="images/practical.jpg" alt="Hands-on practical training"> -->
+                    <div class="gallery-placeholder">
+                        <div class="gallery-placeholder-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 24 24" stroke="#00B8D4" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                        </div>
+                        <div class="gallery-placeholder-text">Hands-On Training</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses-section" id="courses">
+        <div class="container">
+            <h2 class="section-title">Our Training Programs</h2>
+            <p style="font-size: 1.1rem; margin-top: 20px; max-width: 700px;">Short courses with job placement assistance to kickstart your career.</p>
             
             <div class="courses-grid">
+                <div class="course-card featured">
+                    <div class="course-badge">Popular</div>
+                    <h3 class="course-category">Matric Rewrites</h3>
+                    <ul class="course-list">
+                        <li>Full National Senior Certificate</li>
+                        <li>Individual Subject Rewrites</li>
+                        <li>Part-time & Full-time Options</li>
+                        <li>Experienced Teachers</li>
+                        <li>Flexible Payment Plans</li>
+                    </ul>
+                </div>
+
                 <div class="course-card">
                     <h3 class="course-category">Computer Fundamentals</h3>
                     <ul class="course-list">
                         <li>Computer Literacy</li>
                         <li>Internet & E-mail</li>
                         <li>Data Capture</li>
+                        <li>Typing Skills</li>
                     </ul>
                 </div>
 
                 <div class="course-card">
                     <h3 class="course-category">Microsoft Office Suite</h3>
                     <ul class="course-list">
-                        <li>Microsoft Office</li>
+                        <li>Microsoft Office Complete</li>
                         <li>Microsoft Word</li>
+                        <li>Microsoft Excel</li>
                         <li>Microsoft PowerPoint</li>
                         <li>Microsoft Publisher</li>
                     </ul>
@@ -62,25 +239,181 @@
                     <h3 class="course-category">Design & Creative</h3>
                     <ul class="course-list">
                         <li>Graphic Design</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Digital Marketing</li>
                     </ul>
                 </div>
 
                 <div class="course-card">
                     <h3 class="course-category">Business Administration</h3>
                     <ul class="course-list">
-                        <li>Office Admin</li>
+                        <li>Office Administration</li>
                         <li>Basic Business Admin</li>
-                        <li>Typing Skills</li>
+                        <li>Reception Skills</li>
                         <li>Customer Care Skills</li>
+                        <li>Professional Communication</li>
                     </ul>
                 </div>
 
                 <div class="course-card">
-                    <h3 class="course-category">Language Skills</h3>
+                    <h3 class="course-category">Bookkeeping & Finance</h3>
                     <ul class="course-list">
-                        <li>English Classes for Adults</li>
+                        <li>Basic Bookkeeping</li>
+                        <li>Pastel Accounting</li>
+                        <li>QuickBooks</li>
+                        <li>Financial Management</li>
                     </ul>
                 </div>
+
+                <div class="course-card">
+                    <h3 class="course-category">Technical Skills</h3>
+                    <ul class="course-list">
+                        <li>Computer Repair & Maintenance</li>
+                        <li>Network Administration</li>
+                        <li>Hardware Installation</li>
+                        <li>Software Troubleshooting</li>
+                    </ul>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-category">Professional Development</h3>
+                    <ul class="course-list">
+                        <li>English Classes for Adults</li>
+                        <li>Business English</li>
+                        <li>Public Speaking</li>
+                        <li>CV Writing & Interview Skills</li>
+                    </ul>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-badge">New</div>
+                    <h3 class="course-category">Call Center Training</h3>
+                    <ul class="course-list">
+                        <li>Customer Service Excellence</li>
+                        <li>Telephone Etiquette</li>
+                        <li>Conflict Resolution</li>
+                        <li>Sales Techniques</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="healthcare-section" id="healthcare">
+        <div class="container">
+            <div class="limited-badge">Limited Spaces Available</div>
+            <h2 class="section-title">Healthcare & Community Courses</h2>
+            <p style="font-size: 1.1rem; margin-top: 20px; max-width: 750px;">
+                Invest in a career that makes a real difference. Our healthcare and community programs prepare you for frontline roles that truly matter.
+            </p>
+
+            <div class="courses-grid" style="margin-top: 50px;">
+                <div class="course-card featured">
+                    <div class="course-badge">High Demand</div>
+                    <h3 class="course-category">Home Based Care Worker</h3>
+                    <ul class="course-list">
+                        <li>Patient Assistance & Personal Care</li>
+                        <li>Basic Health Monitoring</li>
+                        <li>Elderly & Disability Support</li>
+                        <li>Nutrition & Meal Preparation</li>
+                        <li>Compassionate Community Service</li>
+                    </ul>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-category">Health Promotion Officer</h3>
+                    <ul class="course-list">
+                        <li>Community Health & Wellness</li>
+                        <li>Disease Prevention Programs</li>
+                        <li>Health Education & Outreach</li>
+                        <li>Public Health Campaigns</li>
+                        <li>Frontline Healthcare Support</li>
+                    </ul>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-category">Social Auxiliary Worker</h3>
+                    <ul class="course-list">
+                        <li>Individual & Family Support</li>
+                        <li>Community Upliftment</li>
+                        <li>Counseling & Empowerment</li>
+                        <li>Vulnerable Group Assistance</li>
+                        <li>Case Management Basics</li>
+                    </ul>
+                </div>
+
+                <div class="course-card">
+                    <h3 class="course-category">Occupational Health & Safety</h3>
+                    <ul class="course-list">
+                        <li>Workplace Safety & Compliance</li>
+                        <li>Risk Assessment & Management</li>
+                        <li>Safety Legislation & Standards</li>
+                        <li>Incident Investigation</li>
+                        <li>Health & Safety Representation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="highlight-box" style="margin-top: 50px;">
+                <h4>Why These Careers Are in High Demand</h4>
+                <ul class="highlight-list">
+                    <li>Recognized by the Department of Higher Education & Training</li>
+                    <li>Industry-relevant qualifications</li>
+                    <li>Skilled facilitators & quality training</li>
+                    <li>Clear pathway to employment & career growth</li>
+                    <li>Growing sectors with long-term job security</li>
+                    <li>Make a meaningful impact in your community</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="beauty-section" id="beauty">
+        <div class="container">
+            <div class="limited-badge">Limited Spaces Available</div>
+            <h2 class="section-title">Beauty College</h2>
+            <p style="font-size: 1.1rem; margin-top: 20px; max-width: 750px; color: var(--text);">
+                Turn your passion for beauty into a profession. Quality training, hands-on practical experience, and industry-recognized qualifications to launch your career or start your own business.
+            </p>
+
+            <div class="beauty-grid">
+                <div class="beauty-card">
+                    <h3 class="beauty-card-title">Nail Technology</h3>
+                    <p style="color: var(--text); font-size: 0.95rem; line-height: 1.7;">Gel, acrylic, nail art, and professional manicure & pedicure techniques. Get job-ready for salons or run your own nail studio.</p>
+                </div>
+
+                <div class="beauty-card">
+                    <h3 class="beauty-card-title">Makeup Artistry</h3>
+                    <p style="color: var(--text); font-size: 0.95rem; line-height: 1.7;">From bridal and editorial to theatrical makeup. Learn professional techniques used by industry experts and build your portfolio.</p>
+                </div>
+
+                <div class="beauty-card">
+                    <h3 class="beauty-card-title">Beauty Therapy</h3>
+                    <p style="color: var(--text); font-size: 0.95rem; line-height: 1.7;">Facials, skin care, waxing, massage therapy, and advanced beauty treatments. Qualify for top salons and spas.</p>
+                </div>
+
+                <div class="beauty-card">
+                    <h3 class="beauty-card-title">Lash & Brow Services</h3>
+                    <p style="color: var(--text); font-size: 0.95rem; line-height: 1.7;">Eyelash extensions, lash lifts, brow shaping, lamination, and tinting. One of the fastest-growing beauty services in the industry.</p>
+                </div>
+
+                <div class="beauty-card">
+                    <h3 class="beauty-card-title">Hair & Styling</h3>
+                    <p style="color: var(--text); font-size: 0.95rem; line-height: 1.7;">Cutting, coloring, styling, braiding, and hair care. Gain the skills to work in high-end salons or launch your own hairdressing career.</p>
+                </div>
+            </div>
+
+            <div class="highlight-box beauty" style="margin-top: 50px;">
+                <h4>What Makes Our Beauty College Different</h4>
+                <ul class="highlight-list beauty">
+                    <li>Certified programs recognized by the industry</li>
+                    <li>Hands-on practical training from day one</li>
+                    <li>Experienced and passionate educators</li>
+                    <li>Supportive and professional learning environment</li>
+                    <li>Preparation to work in top salons and spas</li>
+                    <li>Guidance to start your own beauty business</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -93,7 +426,7 @@
                 <div class="feature-item">
                     <div class="feature-icon">✓</div>
                     <h3 class="feature-title">Accredited Training</h3>
-                    <p class="feature-text">Fully accredited courses that meet industry standards and are recognized by employers.</p>
+                    <p class="feature-text">Fully accredited courses that meet industry standards and are recognized by employers nationwide.</p>
                 </div>
 
                 <div class="feature-item">
@@ -105,13 +438,13 @@
                 <div class="feature-item">
                     <div class="feature-icon">◆</div>
                     <h3 class="feature-title">Job Placement Support</h3>
-                    <p class="feature-text">We provide job placement assistance to help you launch your career after completing your course.</p>
+                    <p class="feature-text">We provide comprehensive job placement assistance to help you launch your career after completing your course.</p>
                 </div>
 
                 <div class="feature-item">
                     <div class="feature-icon">▸</div>
                     <h3 class="feature-title">Flexible Learning</h3>
-                    <p class="feature-text">Short course formats designed for working adults and those looking to upskill quickly.</p>
+                    <p class="feature-text">Short course formats designed for working adults and those looking to upskill quickly. Part-time and full-time options available.</p>
                 </div>
             </div>
         </div>
@@ -125,13 +458,26 @@
             <div class="footer-contact">
                 <p>Ready to start your journey?</p>
                 <p>Call us: <a href="tel:0658454145">065 845 4145</a></p>
+                <p>Location: 19 Gladstone Street, Bomac House, East London</p>
+                <p>Email: <a href="mailto:info@cybercollege.org.za">info@cybercollege.org.za</a></p>
             </div>
 
             <div class="footer-bottom">
                 <p>Reg no. 2017/419584/07 | Accreditation no. 2018/02/020016</p>
-                <p>&copy; 2024 Cyber College of Business & Technology. All rights reserved.</p>
+                                <p>&copy; 2026 Cyber College of Business & Technology. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
+    <script>
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("nav-links");
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("open");
+        });
+        navLinks.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", () => navLinks.classList.remove("open"));
+        });
+    </script>
 </body>
 </html>
